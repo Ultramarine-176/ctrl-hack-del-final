@@ -1,0 +1,40 @@
+.headache-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.headache-title {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.headache-image {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.headache-section {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.headache-subtitle {
+    color: #00aaff;
+}
+
+.headache-subtitle+ul {
+    margin-top: 20px;
+}
+
+.headache-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}

@@ -1,0 +1,76 @@
+.home-container {
+    text-align: center;
+}
+
+.background-image {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 7rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #333;
+    background: rgba(100, 200, 250, 0.2);
+    padding: 100px;
+    border-radius: 8px;
+    border-left: 4px solid #00aaff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.common-symptoms-title {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    margin: 0;
+}
+
+.symptoms-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.symptom-box {
+    width: 100px;
+    height: 100px;
+    background: rgba(150, 200, 220, 0.2);
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.symptom-box:hover {
+    transform: scale(1.05);
+}
+
+.symptom-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
